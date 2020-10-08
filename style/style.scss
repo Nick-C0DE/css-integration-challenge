@@ -1,1 +1,39 @@
-@import"bootstrap.scss";
+@import"scss/bootstrap.scss";
+.exercice1 {
+    background-color: blue;
+}
+
+// .exercice2{
+//     background-color: orange;
+// }
+.frame{
+    
+    border: 5px grey solid;
+    background-color: rgb(70, 141, 241);
+   color:rgb(218, 231, 252);
+    width: 25%;
+    margin: 5%;
+    display: flex;
+}
+img{
+    margin: 0;
+}
+.content{
+    flex-wrap: wrap;
+    margin: 25px;
+    width: 100%;
+}
+bouton{
+    background-color: red;
+}
+
+table, th, td {
+    border:  solid rgb(218, 231, 252);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  tfoot{
+      border:10px solid rgb(70, 141, 241);
+  }
