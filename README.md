@@ -4,7 +4,11 @@
 * [Setup](#setup)
 
 ## General info
-This project is sample of what I have learn at BeCode Brussels 
+This project is sample of what I have learn at BeCode Brussels
+
+# Exercise css-integration-challenge
+https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/tree/master/1.The-Field/End-of-Fields-Consolidation-Challenges
+
 	
 ## Technologies
 Project is created with:
@@ -56,12 +60,4 @@ void main(List<String> arguments) {
 ```
 dart compile-sass.dart styles.scss styles.css
 ```
-Learn more about writing Dart code (it's easy!) and about Sass's Dart API
-
-
-# Exercise css-integration-challenge
-https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/tree/master/1.The-Field/End-of-Fields-Consolidation-Challenges
-
-
-# Result
-https://nick-c0de.github.io/css-integration-challenge/.
+Learn more about writing Dart code (it's easy!) and about Sass's Dart API.
