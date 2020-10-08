@@ -9894,41 +9894,150 @@ h3 {
   }
 }
 .exercice1 {
-  background-color: blue;
+  background-color: white;
+  border: white;
+}
+
+.card h1 {
+  color: #75BA8C;
+}
+
+.exercice2 {
+  margin: 50px;
 }
 
 .frame {
-  border: 5px grey solid;
+  border: 5px solid white;
   background-color: #468df1;
   color: #dae7fc;
-  width: 25%;
-  margin: 5%;
-  display: flex;
-}
-
-img {
-  margin: 0;
+  width: 300px;
+  height: 561px;
+  border-radius: 5%;
 }
 
 .content {
-  flex-wrap: wrap;
-  margin: 25px;
-  width: 100%;
+  flex-wrap: nowrap;
+  padding: 25px;
+  width: 300px;
 }
 
-bouton {
-  background-color: red;
+.Nbr {
+  font-size: 50px !important;
+  font-weight: bold;
+  padding-bottom: 20px;
 }
 
-table, th, td {
-  border: solid #dae7fc;
+.titre {
+  font-size: 13px !important;
+}
+
+.info {
+  font-size: 11px !important;
+}
+
+hr {
+  align-items: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid #dae7fc;
   border-top: none;
   border-left: none;
   border-right: none;
+  font-size: 13px;
 }
 
-tfoot {
-  border: 10px solid #468df1;
+tbody {
+  text-align: left;
+}
+
+.top {
+  text-align: center;
+}
+
+table {
+  margin-top: 2px;
+}
+
+img {
+  width: 100%;
+}
+
+.container_3 {
+  display: flex;
+  border: solid #839192 1px;
+  width: 600px;
+  height: 300px;
+  margin: 50px;
+  box-shadow: 0px 0px 10px #839192;
+}
+
+.name {
+  display: flex;
+  margin-top: 80px;
+}
+
+.box_3 {
+  width: 60%;
+  padding: 30px;
+}
+
+.imgLarge {
+  background-image: url("https://picsum.photos/300/400");
+  background-size: cover;
+  width: 40%;
+  height: 300px;
+}
+
+.imgSmall {
+  background-image: url("../images/IMG_3344.jpg");
+  background-size: 333%;
+  background-position: 38% 29%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.boxText {
+  margin: auto;
+  margin-top: -20px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.boxText_2 {
+  padding-left: 15px;
+}
+
+.title_2 {
+  font-size: 12px;
+  display: block;
+}
+
+.text_2 {
+  font-size: 10px;
+  margin-top: -10px;
+}
+
+.boxy {
+  display: flex;
+}
+
+.chevron {
+  margin-left: 100px;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
